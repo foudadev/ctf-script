@@ -1,0 +1,1 @@
+for(let i=1; i<6; i++) fetch('/admin/approve/'+i, {method:'POST'}).then(r=>r.ok&&i>99);
